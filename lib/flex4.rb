@@ -36,7 +36,7 @@ Sprout::Specification.new do |s|
     t.platform     = :universal
     t.archive_type = :zip
     t.url = "http://download.macromedia.com/pub/flex/sdk/flex_sdk_4.1.zip"
-    # t.md5 = "202bca98ee7b8db9cda3af01e99c688e"
+    t.md5 = "4c5f3d3fa4e1f5be244679210cd852c0"
 
     # Executables: (add .exe suffix if it was passed in)
     t.add_executable :aasdoc,     "bin/aasdoc"
