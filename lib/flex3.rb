@@ -16,8 +16,8 @@ Sprout::Specification.new do |s|
   s.add_remote_file_target do |t|
     t.platform = :universal
     t.archive_type = :zip
-    t.url          = "http://fpdownload.adobe.com/pub/flex/sdk/builds/flex3/flex_sdk_3.4.0.9271_mpl.zip"
-    t.md5          = "ba0df5a5b7a9c901540bedaf8a4fec9e"
+    t.url          = "http://download.macromedia.com/pub/flex/sdk/flex_sdk_3.6.zip"
+    t.md5          = "93085f07ba9e9e0285eabb0a42af38fd"
 
     # Executables: (add .exe suffix if it was passed in)
     t.add_executable :aasdoc,     "bin/aasdoc"
