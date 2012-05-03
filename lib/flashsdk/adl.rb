@@ -16,9 +16,9 @@ module FlashSDK
 
     add_param :root_dir, String, { :hidden_name => true, :delimiter => ' ' }
     
-    add_param :arguments, String, { :hidden_name => true }
+    add_param :arguments, String, { :hidden_name => true, :delimiter => ' ', :default => '--' }
 
-    #add_param :shitty_dashes, String, { :hidden_name => true, :delimiter => ' ', :default => '--' }
+    #add_param :shitty_dashes, String, { :hidden_name => true, :delimiter => ' ' }
 
     add_param :input, File, { :hidden_name => true }
 
