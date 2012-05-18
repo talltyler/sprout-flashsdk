@@ -1,8 +1,7 @@
-
 Sprout::Specification.new do |s|
   # This is the Specification that loads the Flex 3 SDK,
   # To use the Flex 3 SDK from your build tasks, you can
-  # simply update the pkg_name parameter of your build 
+  # simply update the pkg_name parameter of your build
   # task as follows:
   #
   #   mxmlc 'bin/SomeProject.swf' do |t|
@@ -16,8 +15,8 @@ Sprout::Specification.new do |s|
   s.add_remote_file_target do |t|
     t.platform = :universal
     t.archive_type = :zip
-    t.url          = "http://download.macromedia.com/pub/flex/sdk/flex_sdk_3.5.zip"
-    t.md5          = "c9dcdc5db45e50af7d96ede1421ddbde"
+    t.url          = "http://ppchef.s3.amazonaws.com/flex_sdk_3.5_rebundled.zip"
+    t.md5          = "7252822ec0691e2f55d836ea2af07c8e"
 
     # Executables: (add .exe suffix if it was passed in)
     t.add_executable :aasdoc,     "bin/aasdoc"
@@ -51,4 +50,3 @@ Sprout::Specification.new do |s|
     t.add_library :rpc_en_US, "frameworks/locale/en_US/rpc_rb.swc"
   end
 end
-
