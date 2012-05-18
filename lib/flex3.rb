@@ -16,7 +16,7 @@ Sprout::Specification.new do |s|
     t.platform = :universal
     t.archive_type = :zip
     t.url          = "http://ppchef.s3.amazonaws.com/flex_sdk_3.5_rebundled.zip"
-    t.md5          = "2095fdded0f29dce455c1877634ddf37"
+    t.md5          = "98dd18402395750189910f18f93f10ae"
 
     # Executables: (add .exe suffix if it was passed in)
     t.add_executable :aasdoc,     "bin/aasdoc"
